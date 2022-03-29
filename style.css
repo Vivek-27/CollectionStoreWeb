@@ -106,10 +106,18 @@ nav ul li a{
 }
 
 .feature-img{
-	height: 120%;
+	height: 100%;
 	position: absolute;
 	top: 90px;
 	bottom: 0;
+	right: 160px;
+}
+
+.feature-img:hover{
+	height: 100%;
+	position: absolute;
+	top: 95px;
+	bottom: 5px;
 	right: 160px;
 }
 
@@ -125,4 +133,12 @@ nav ul li a{
 	color: #6a7199;
 	padding-right: 20px;
 	font-size: 14px;
+}
+
+.logo:hover{
+	width: 205px;
+}
+
+.cart:hover{
+	width: 43px;
 }
